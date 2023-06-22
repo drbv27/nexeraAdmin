@@ -1,0 +1,599 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "companyName": "First Company",
+      "companyStatus": "pending",
+      "details": {
+        "address": "address of first company",
+        "city": "fresno",
+        "state": "california",
+        "zipcode": "90210",
+        "phone": "555-123456",
+        "industryLicenseType": "construction",
+        "corpSole": "corporation",
+        "contacts": [
+          {
+            "name": "Jon Doe",
+            "email": "jondoe@gmail.com",
+            "phone": "555-123457"
+          },
+          {
+            "name": "Fox wolf",
+            "email": "foxwolf@gmail.com",
+            "phone": "555-123458"
+          },
+          {
+            "name": "eagle eye",
+            "email": "eagleeye@gmail.com",
+            "phone": "555-123459"
+          }
+        ],
+        "notes": [
+          "note 1",
+          "note 2",
+          "note 3"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": false,
+        "CSLBAppComplete": false,
+        "OnlineCourseSetup": false,
+        "Bond": false,
+        "WorkersComp": false,
+        "LiveScan": false
+      },
+      "conversations": [
+        {
+          "subject": "First Conversation",
+          "message": "First Conversation",
+          "direction": "out",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Second Conversation",
+          "message": "Second Conversation",
+          "direction": "in",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Third Conversation",
+          "message": "Third Conversation",
+          "direction": "out",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Four Conversation",
+          "message": "Four Conversation",
+          "direction": "in",
+          "date": "2015-05-21"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activitie a",
+          "Activitie b"
+        ],
+        "tasks": [
+          "Task a",
+          "Task b"
+        ],
+        "appointments": [
+          "Appointment a",
+          "Appointment b"
+        ],
+        "milestones": [
+          "Milestone a",
+          "Milestone b"
+        ],
+        "notes": [
+          "note a",
+          "note b"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "companyName": "Second Company",
+      "companyStatus": "processing",
+      "details": {
+        "address": "address of second company",
+        "city": "los angeles",
+        "state": "california",
+        "zipcode": "90001",
+        "phone": "555-987654",
+        "industryLicenseType": "software",
+        "corpSole": "sole proprietorship",
+        "contacts": [
+          {
+            "name": "Jane Smith",
+            "email": "janesmith@gmail.com",
+            "phone": "555-987655"
+          },
+          {
+            "name": "Mike Johnson",
+            "email": "mikejohnson@gmail.com",
+            "phone": "555-987656"
+          },
+          {
+            "name": "Sarah Davis",
+            "email": "sarahdavis@gmail.com",
+            "phone": "555-987657"
+          }
+        ],
+        "notes": [
+          "note 4",
+          "note 5",
+          "note 6"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": true,
+        "CSLBAppComplete": true,
+        "OnlineCourseSetup": false,
+        "Bond": false,
+        "WorkersComp": false,
+        "LiveScan": true
+      },
+      "conversations": [
+        {
+          "subject": "Fifth Conversation",
+          "message": "Fifth Conversation",
+          "direction": "out",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Sixth Conversation",
+          "message": "Sixth Conversation",
+          "direction": "in",
+          "date": "2015-05-21"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activitie c",
+          "Activitie d"
+        ],
+        "tasks": [
+          "Task c",
+          "Task d"
+        ],
+        "appointments": [
+          "Appointment c",
+          "Appointment d"
+        ],
+        "milestones": [
+          "Milestone c",
+          "Milestone d"
+        ],
+        "notes": [
+          "note c",
+          "note d"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "companyName": "Third Company",
+      "companyStatus": "pending",
+      "details": {
+        "address": "address of third company",
+        "city": "san francisco",
+        "state": "california",
+        "zipcode": "94101",
+        "phone": "555-987653",
+        "industryLicenseType": "consulting",
+        "corpSole": "corporation",
+        "contacts": [
+          {
+            "name": "John Smith",
+            "email": "johnsmith@gmail.com",
+            "phone": "555-987652"
+          },
+          {
+            "name": "Lisa Johnson",
+            "email": "lisajohnson@gmail.com",
+            "phone": "555-987651"
+          },
+          {
+            "name": "David Davis",
+            "email": "daviddavis@gmail.com",
+            "phone": "555-987650"
+          }
+        ],
+        "notes": [
+          "note 7",
+          "note 8",
+          "note 9"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": false,
+        "CSLBAppComplete": false,
+        "OnlineCourseSetup": true,
+        "Bond": true,
+        "WorkersComp": true,
+        "LiveScan": true
+      },
+      "conversations": [
+        {
+          "subject": "Seventh Conversation",
+          "message": "Seventh Conversation",
+          "direction": "out",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Eighth Conversation",
+          "message": "Eighth Conversation",
+          "direction": "in",
+          "date": "2015-05-21"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activitie e",
+          "Activitie f"
+        ],
+        "tasks": [
+          "Task e",
+          "Task f"
+        ],
+        "appointments": [
+          "Appointment e",
+          "Appointment f"
+        ],
+        "milestones": [
+          "Milestone e",
+          "Milestone f"
+        ],
+        "notes": [
+          "note e",
+          "note f"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "companyName": "Fourth Company",
+      "companyStatus": "pending",
+      "details": {
+        "address": "address of fourth company",
+        "city": "miami",
+        "state": "florida",
+        "zipcode": "33101",
+        "phone": "555-123987",
+        "industryLicenseType": "hospitality",
+        "corpSole": "sole proprietorship",
+        "contacts": [
+          {
+            "name": "Michael Brown",
+            "email": "michaelbrown@gmail.com",
+            "phone": "555-123988"
+          },
+          {
+            "name": "Emily Johnson",
+            "email": "emilyjohnson@gmail.com",
+            "phone": "555-123989"
+          },
+          {
+            "name": "Daniel Davis",
+            "email": "daviddavis@gmail.com",
+            "phone": "555-123990"
+          }
+        ],
+        "notes": [
+          "note 10",
+          "note 11",
+          "note 12"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": true,
+        "CSLBAppComplete": true,
+        "OnlineCourseSetup": true,
+        "Bond": true,
+        "WorkersComp": true,
+        "LiveScan": true
+      },
+      "conversations": [
+        {
+          "subject": "Ninth Conversation",
+          "message": "Ninth Conversation",
+          "direction": "out",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Tenth Conversation",
+          "message": "Tenth Conversation",
+          "direction": "in",
+          "date": "2015-05-21"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activitie g",
+          "Activitie h"
+        ],
+        "tasks": [
+          "Task g",
+          "Task h"
+        ],
+        "appointments": [
+          "Appointment g",
+          "Appointment h"
+        ],
+        "milestones": [
+          "Milestone g",
+          "Milestone h"
+        ],
+        "notes": [
+          "note g",
+          "note h"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "companyName": "Fifth Company",
+      "companyStatus": "pending",
+      "details": {
+        "address": "address of fifth company",
+        "city": "new york",
+        "state": "new york",
+        "zipcode": "10001",
+        "phone": "555-555555",
+        "industryLicenseType": "technology",
+        "corpSole": "corporation",
+        "contacts": [
+          {
+            "name": "Sarah Johnson",
+            "email": "sarahjohnson@gmail.com",
+            "phone": "555-555554"
+          },
+          {
+            "name": "Robert Davis",
+            "email": "robertdavis@gmail.com",
+            "phone": "555-555553"
+          },
+          {
+            "name": "Jessica Brown",
+            "email": "jessicabrown@gmail.com",
+            "phone": "555-555552"
+          }
+        ],
+        "notes": [
+          "note 13",
+          "note 14",
+          "note 15"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": true,
+        "CSLBAppComplete": true,
+        "OnlineCourseSetup": false,
+        "Bond": true,
+        "WorkersComp": false,
+        "LiveScan": false
+      },
+      "conversations": [
+        {
+          "subject": "Eleventh Conversation",
+          "message": "Eleventh Conversation",
+          "direction": "out",
+          "date": "2015-05-21"
+        },
+        {
+          "subject": "Twelfth Conversation",
+          "message": "Twelfth Conversation",
+          "direction": "in",
+          "date": "2015-05-21"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activity i",
+          "Activity j"
+        ],
+        "tasks": [
+          "Task i",
+          "Task j"
+        ],
+        "appointments": [
+          "Appointment i",
+          "Appointment j"
+        ],
+        "milestones": [
+          "Milestone i",
+          "Milestone j"
+        ],
+        "notes": [
+          "note i",
+          "note j"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "companyName": "Sixth Company",
+      "companyStatus": "scheduled",
+      "details": {
+        "address": "address of sixth company",
+        "city": "houston",
+        "state": "texas",
+        "zipcode": "77001",
+        "phone": "555-246813",
+        "industryLicenseType": "healthcare",
+        "corpSole": "corporation",
+        "contacts": [
+          {
+            "name": "Olivia Martinez",
+            "email": "oliviamartinez@gmail.com",
+            "phone": "555-246814"
+          },
+          {
+            "name": "Sophia Thompson",
+            "email": "sophiathompson@gmail.com",
+            "phone": "555-246815"
+          }
+        ],
+        "notes": [
+          "note 22"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": false,
+        "CSLBAppComplete": true,
+        "OnlineCourseSetup": false,
+        "Bond": false,
+        "WorkersComp": false,
+        "LiveScan": false
+      },
+      "conversations": [
+        {
+          "subject": "Eleventh Conversation",
+          "message": "Eleventh Conversation",
+          "direction": "out",
+          "date": "2015-05-26"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activity c",
+          "Activity d"
+        ],
+        "tasks": [
+          "Task c",
+          "Task d"
+        ],
+        "appointments": [
+          "Appointment c",
+          "Appointment d"
+        ],
+        "milestones": [
+          "Milestone c",
+          "Milestone d"
+        ],
+        "notes": [
+          "note c",
+          "note d"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "companyName": "Seventh Company",
+      "companyStatus": "processing",
+      "details": {
+        "address": "address of seventh company",
+        "city": "miami",
+        "state": "florida",
+        "zipcode": "33101",
+        "phone": "555-987654",
+        "industryLicenseType": "hospitality",
+        "corpSole": "corporation",
+        "contacts": [
+          {
+            "name": "Sophie Johnson",
+            "email": "sophiejohnson@gmail.com",
+            "phone": "555-987655"
+          },
+          {
+            "name": "Oliver Davis",
+            "email": "oliverdavis@gmail.com",
+            "phone": "555-987656"
+          },
+          {
+            "name": "Emma Wilson",
+            "email": "emmawilson@gmail.com",
+            "phone": "555-987657"
+          }
+        ],
+        "notes": [
+          "note 23",
+          "note 24",
+          "note 25"
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": true,
+        "CSLBAppComplete": true,
+        "OnlineCourseSetup": true,
+        "Bond": true,
+        "WorkersComp": true,
+        "LiveScan": true
+      },
+      "conversations": [
+        {
+          "subject": "Twelfth Conversation",
+          "message": "Twelfth Conversation",
+          "direction": "out",
+          "date": "2015-05-27"
+        },
+        {
+          "subject": "Thirteenth Conversation",
+          "message": "Thirteenth Conversation",
+          "direction": "in",
+          "date": "2015-05-27"
+        }
+      ],
+      "activities": {
+        "list": [
+          "Activitie 9",
+          "Activitie 10"
+        ],
+        "tasks": [
+          "Task 9",
+          "Task 10"
+        ],
+        "appointments": [
+          "Appointment 8"
+        ],
+        "milestones": [
+          "Milestone 7",
+          "Milestone 8"
+        ],
+        "notes": [
+          "note 26",
+          "note 27"
+        ]
+      }
+    },
+    {
+      "companyName": "Pygmalion",
+      "companyStatus": "scheduled",
+      "details": {
+        "industryLicenseType": "tech",
+        "corpSole": "corporation",
+        "state": "Florida",
+        "city": "Fort Lauderdale",
+        "address": "i dont know",
+        "zipcode": "5002525",
+        "phone": "123456789",
+        "contacts": [
+          {
+            "name": "Fredy Cardenas",
+            "email": "admin@admin.com",
+            "phone": "987654321"
+          }
+        ]
+      },
+      "statusItems": {
+        "workExperienceForm": false,
+        "CSLBAppComplete": false,
+        "OnlineCourseSetup": true,
+        "Bond": false,
+        "WorkersComp": false,
+        "LiveScan": false
+      },
+      "conversations": [],
+      "activities": {
+        "list": [],
+        "tasks": [],
+        "appointments": [],
+        "milestones": [],
+        "notes": []
+      },
+      "id": 8
+    }
+  ]
+}

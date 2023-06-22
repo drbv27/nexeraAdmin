@@ -1,0 +1,14 @@
+.chakra-table td,
+.chakra-table th {
+    font-size: 10px;
+}
+
+.column-divider {
+    border-right: 1px solid orange;
+    padding-right: 8px;
+}
+
+td {
+    border-right: 1px solid orange;
+    padding-right: 8px;
+}
